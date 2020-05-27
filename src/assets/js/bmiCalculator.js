@@ -10,6 +10,8 @@ const getBMIclassification = value => {
         return "Healty"
     } else if (value < 30){  
         return "Overweight"     
+    } else if (value > 30){
+        return "Obease"
     }
 
 }
